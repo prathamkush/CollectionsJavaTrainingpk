@@ -12,7 +12,7 @@ public class CollectionArrayList {
         al.add("Fingolfin");
         al.add("Finarfin");
 
-        System.out.println("asdfasdf");
+        System.out.println("asdf");
 
         //void add
         al.add(1, "Sauron");
