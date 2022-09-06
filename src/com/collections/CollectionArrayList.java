@@ -12,6 +12,8 @@ public class CollectionArrayList {
         al.add("Fingolfin");
         al.add("Finarfin");
 
+        System.out.println("asdfasdf");
+
         //void add
         al.add(1, "Sauron");
         al.add("Sauron");
