@@ -8,6 +8,7 @@ public class CollectionVector {
             System.out.println(index +" " +itr.next());
             index++;
         }
+        System.out.println("--------");
     }
     public static void main(String[] args) {
         CollectionVector obj = new CollectionVector();
@@ -22,6 +23,27 @@ public class CollectionVector {
         vec.add("6");
         // display
         obj.display(vec);
+
+        //void add
+        vec.add(3,"3");
+
+        //contains
+        System.out.println(vec.contains("10"));
+
+        //remove
+        vec.remove("2");
+        obj.display(vec);
+
+        //indexOfObject
+        System.out.println("First index of 3 ->"+vec.indexOf("3"));
+        //lastIndexOf
+        System.out.println("Last index of 3 -> "+vec.lastIndexOf("3"));
+
+        //clear
+        vec.clear();
+        System.out.println(vec.size());
+
+
 
     }
 }
