@@ -1,9 +1,7 @@
 package com.collections;
 
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Vector;
 
 public class CollectionHashSet {
 

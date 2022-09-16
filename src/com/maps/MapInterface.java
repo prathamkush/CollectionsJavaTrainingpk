@@ -1,12 +1,11 @@
-package maps;
+package com.maps;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.TreeSet;
 
 public class MapInterface {
-    // Object that maps with key value pairs
+    // Object that com.collections.maps with key value pairs
     // Duplicate keys are not allowed
 
     // Exceptions

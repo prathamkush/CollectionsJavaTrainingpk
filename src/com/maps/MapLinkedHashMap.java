@@ -1,6 +1,4 @@
-package maps;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+package com.maps;
 
 
 import java.util.LinkedHashMap;
